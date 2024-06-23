@@ -31,7 +31,7 @@ function Mid() {
     const formData = new FormData();
     formData.append('file', selectedFile);
 
-    axios.post('https://2f6f-191-98-182-165.ngrok-free.app/predict', formData, {
+    axios.post('http://localhost:5000/predict', formData, {
       headers: {
         'Content-Type': 'multipart/form-data'
       }
