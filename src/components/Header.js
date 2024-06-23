@@ -8,11 +8,11 @@ function Header() {
     <header>
          <img src={logo}/>
          <div className='pr'>  
-            <div> <h3>Instrucciones:</h3> </div>
+            <div className='hidden sm:block'> <h3>Instrucciones:</h3> </div>
            <div>
-           <h3>1. Carga la imagen / Tomar foto</h3>
-            <h3>2. Dale click a "Visualizar"</h3>
-            <h3>3. ¡Mira tu receta!</h3>
+           <h3 className='hidden sm:block'>1.Carga la imagen</h3>
+            <h3 className='hidden sm:block'>2. Dale a "Visualizar"</h3>
+            <h3 className='hidden sm:block'>3. ¡Mira tu receta!</h3>
 
            </div>
 

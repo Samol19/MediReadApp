@@ -49,6 +49,12 @@ button {
   font-weight: 600;
   font-size: medium;
 }
+
+
+p {
+  font-weight: 600;
+  font-size: medium;
+}
 .pr{
   display: flex;
 }
@@ -77,3 +83,8 @@ button {
 }
 
 
+@media (max-width: 640px) { /* Media query para pantallas menores o iguales a 640px (celulares) */
+  header {
+    padding: 15px; /* Nuevo padding específico para celulares */
+  }
+}
